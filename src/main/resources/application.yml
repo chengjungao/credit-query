@@ -1,0 +1,26 @@
+server:
+  context-path: /credit
+  prot: 8080
+  
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/credit?useUnicode=true&characterEncoding=utf-8&useSSL=true
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+08:00
+    
+data-access:
+  fahai: 
+    token: d6Im77l0x1aut2KJm6Sc
+    enterprise-url: http://api.fahaicc.com/fhfk/query
+    person-url: http://api.fahaicc.com/fhfk/person
+    
+ 
+  
