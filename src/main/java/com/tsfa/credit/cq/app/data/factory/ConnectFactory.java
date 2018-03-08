@@ -1,7 +1,7 @@
 package com.tsfa.credit.cq.app.data.factory;
 
 /**
- * 功能描述：http client 工厂
+ * 功能描述： client 工厂
  *
  * @param <T>
  */

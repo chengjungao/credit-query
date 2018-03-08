@@ -3,7 +3,6 @@ package com.tsfa.credit.cq.app.data.access;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
